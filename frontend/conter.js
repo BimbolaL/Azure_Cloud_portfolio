@@ -1,9 +1,9 @@
-//when the content is loaded
+//when the content is loaded go and run the getVisitorCount function event 
 window.addEventListener('DOMContentLoaded', (event)=>{
-    getVisitorCount();
+    getVisitorCount();//not working yet 
 })
 const counterApi = '';
-
+//come here to update see if code works
 const getVisitorCount = () =>{
     let count = 30;
     fetch(counterApi).then(response =>{
